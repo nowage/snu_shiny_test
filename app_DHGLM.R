@@ -4,7 +4,7 @@
 library(shiny)
 library(dhglm)
 library(caret)
-ui<-navbarPage("Albatross Regression",
+ui<-navbarPage("Albatross DHGLM",
                tabPanel("Data Import",
                         sidebarLayout(sidebarPanel( fileInput("file","Upload your CSV",multiple = FALSE),
                                                     tags$hr(),
